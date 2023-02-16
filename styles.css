@@ -136,11 +136,6 @@ table {
 
 /* Reset end */
 
-/* 
-font-family: 'Inter', sans-serif;
-font-family: 'Lexend Deca', sans-serif; 
-*/
-
 body {
     min-height: 100vh;
     display: flex;
@@ -204,7 +199,7 @@ p {
 .uppercase-text {
     font-family: 'Lexend Deca', sans-serif;
     text-transform: uppercase;
-    font-size: 12px;
+    font-size: 0.75rem;
     letter-spacing: 1px;
     line-height: 1.25;
 }
@@ -304,7 +299,7 @@ p {
     }
 
     h1 {
-        font-size: 28px;
+        font-size: 1.75rem;
         color: white;
         line-height: 1.15;
         margin-bottom: 14px;
@@ -312,7 +307,7 @@ p {
 
     h2 {
         color: white;
-        font-size: 24px;
+        font-size: 1.5rem;
         font-family: 'Inter', sans-serif;
         font-weight: 700;
         line-height: 1.25;
@@ -351,15 +346,5 @@ p {
         flex-direction: column;
         align-items: center;
         margin-top: 20px;
-       
     }
-
-    /* .normal-text {
-        width:
-    } */
-
-
-    /* .card-details {
-
-    } */
 }
